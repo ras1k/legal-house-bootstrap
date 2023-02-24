@@ -7,9 +7,11 @@ body {
 }
 .image{
     background-image: url(../images/banner.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: auto;
     height: 80vh;
-    background-position: center;
 }
 
 @media only screen and (max-width: 576px){
